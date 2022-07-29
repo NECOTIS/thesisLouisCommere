@@ -1,7 +1,7 @@
 # Depth sonification for sensory substitution
 Sound demonstration for the 5 depth sonifications invest _**Evaluation of depth sonifications for visual-to-auditory sensory substitution.**_ 
 
-For the following sounds, you will hear the entire depth range (from depth = 0m to depth =1m) played over 2 seconds. For the 
+For the following sounds, you will hear the entire depth range (from depth = 0m to depth =1m) played over 2 seconds. For a better listening quality you can download the aiff files. 
 
 https://user-images.githubusercontent.com/6518453/181802945-e913a2ac-dac0-4ae1-9f9a-ef0f3957eda8.mp4
 
