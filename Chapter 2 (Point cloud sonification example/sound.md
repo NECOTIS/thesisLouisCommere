@@ -45,8 +45,7 @@ Sphere_Pos_4.0-4.0--2.0_S_0.5:
 https://user-images.githubusercontent.com/6518453/189209301-4bb45406-00ba-436c-ae5a-c792e8c190c2.mp4
 
 
-**Sonification of a "real" pointcloud (staircase): 
-**
+**Sonification of a real pointcloud (representing a staircase): **
 
 
 ![pointCloudExample-1](https://user-images.githubusercontent.com/6518453/189210047-5baeefd4-323c-43a8-a54b-ec03556b7bd4.png)
