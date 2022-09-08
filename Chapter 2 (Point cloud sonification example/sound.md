@@ -46,8 +46,7 @@ https://user-images.githubusercontent.com/6518453/189209301-4bb45406-00ba-436c-a
 
 
 Sonification of a "real" pointcloud (staircase): 
-[pointCloudExample.pdf](https://github.com/NECOTIS/thesisLouisCommere/files/9530046/pointCloudExample.pdf)
-
+![pointCloudExample-1](https://user-images.githubusercontent.com/6518453/189210047-5baeefd4-323c-43a8-a54b-ec03556b7bd4.png)
 
 
 https://user-images.githubusercontent.com/6518453/189209760-27d45479-e9b4-4540-9cdf-6c9b5ae21fa1.mp4
