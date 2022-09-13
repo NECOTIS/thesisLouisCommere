@@ -1,5 +1,4 @@
-Code to reproduce the experiments presented in the article "Sonified distance in sensory substitution does not always improve localization: comparison with a 2D and 3D handheld device." (https://ieeexplore.ieee.org/
-document/9855663)
+Code to reproduce the experiments presented in the article "Sonified distance in sensory substitution does not always improve localization: comparison with a 2D and 3D handheld device." (https://ieeexplore.ieee.org/document/9855663)
 
 To run the system, you have to run the python and the supercollider files in parallel. 
 
