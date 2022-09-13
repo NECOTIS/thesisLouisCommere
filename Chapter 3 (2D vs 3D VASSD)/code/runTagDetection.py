@@ -11,7 +11,7 @@ from pyqtgraph.Qt import QtGui, QtCore
 from PyQt5.QtWidgets import *
 import cv2
 import itertools
-from pseyepy import Camera #we use a playstation camera but any webccam can be used
+from pseyepy import Camera #we use a playstation camera but any webccam can be used, comment if not needed
 
 #Size of the used tags (in meters)
 SIZE_TAG_LOC= 0.043
