@@ -87,20 +87,20 @@ class QtCapture(QtGui.QWidget):
         #Mode: 2D : False, 3D : True
         self.mode3D = False
 
-        #Exp: 0: localisation, 1: navigation, Localisation: position par defaut
+        #Localization is the default experimental mode
         self.tagSize = SIZE_TAG_LOC #MOYEN loc
-
+        
+        #Start the pyQYT window
         self.start()
 
     def setFPS(self, fps):
         self.fps = fps
 
-    #FUNCTION THAT IS COMPUTED EVERY FRAME TO DETECT THE TAG
+    #Function that is runned every frame (tag detection + send active cells to supercollider)
     def nextFrameSlot(self):
         #Uncomment for using webccam
         #ret, frame = self.cap.read()
         #print(frame.size)
-        # My webcam yields frames in BGR format
 
         #Uncomment for using Kinect
         #frame = np.array(freenect.sync_get_video()[0])
@@ -115,7 +115,7 @@ class QtCapture(QtGui.QWidget):
         result = detector.detect(gray)
         dist={} #list of dist of the detected april tag
 
-        #Turn off active cells
+        #Turn off previous active cells
         for i, j in list(itertools.product(range(self.numCellY),range(self.numCellX))):
             self.actGrid[i][j].isActive=False
 
@@ -175,8 +175,8 @@ class QtCapture(QtGui.QWidget):
         for i, j in list(itertools.product(range(self.numCellY),range(self.numCellX))):
             if(self.actGrid[i][j].isActive):
                  self.actGrid[i][j].displayCell(frame)
+                    
         #Display images
-        #cv2.imshow('frame',gray)
         img = QtGui.QImage(frame, frame.shape[1], frame.shape[0], QtGui.QImage.Format_RGB888)#.Format_Grayscale8)
         pix = QtGui.QPixmap.fromImage(img)
         self.video_frame.setPixmap(pix)
