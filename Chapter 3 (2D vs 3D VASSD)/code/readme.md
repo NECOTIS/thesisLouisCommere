@@ -19,7 +19,7 @@ Interface of the system:
 
  2D / 3D button: Mode 2D -> Distance between the camera and the tag is not encoded, Mode 3D -> the distance is encoded (with repetition rate)
  
- Loc / Navig button: Loc -> localization experiment (tags are smaller) / Nav -> navigation experiments (tags are bigger)
+ Localization / Navigaton button: Localization -> localization experiment (tags are smaller) / Navigation -> navigation experiments (tags are bigger)
 
 
 
