@@ -4,6 +4,7 @@ document/9855663)
 To run the system, you have to run the python and the supercollider files in parallel. 
 
 Interface of the system: 
+ <img src="https://user-images.githubusercontent.com/6518453/189969154-08d6aae5-fa0a-4e4e-b2f6-51de0a7e8670.png" width="600">
 
 ![Capture d’écran 2022-09-13 à 13 26 58](https://user-images.githubusercontent.com/6518453/189969154-08d6aae5-fa0a-4e4e-b2f6-51de0a7e8670.png| width=100)
 
