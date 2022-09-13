@@ -5,7 +5,7 @@ To run the system, you have to run the python and the supercollider files in par
 
 Interface of the system: 
 
-![Capture d’écran 2022-09-13 à 13 26 58](https://user-images.githubusercontent.com/6518453/189969154-08d6aae5-fa0a-4e4e-b2f6-51de0a7e8670.png)
+![Capture d’écran 2022-09-13 à 13 26 58](https://user-images.githubusercontent.com/6518453/189969154-08d6aae5-fa0a-4e4e-b2f6-51de0a7e8670.png| width=100)
 
 For the tag detection (runTagDetection.py):
 - We use a playstation eye camera (with the pseyepy lib)  for the video input but any webcam can be used. 
