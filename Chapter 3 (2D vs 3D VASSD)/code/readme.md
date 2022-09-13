@@ -3,6 +3,10 @@ document/9855663)
 
 To run the system, you have to run the python and the supercollider files in parallel. 
 
-Note that we use a playstation eye camera for the video input but any webcam can be used.
+For the tag detection (runTagDetection.py):
+- We use a playstation eye camera (with the pseyepy lib)  for the video input but any webcam can be used. 
+- Sizes of the tags you use can be set at the beginning of the python code
+- 
 
-If you are not familiar with supercollider, you should first read this page: https://doc.sccode.org/Tutorials/Getting-Started/02-First-Steps.html#:~:text=To%20execute%20it%2C%20simply%20click,Try%20this%20now to know how to execute the supercolldier code. 
+For the sound synthesis (run soundSynthesis.scd)
+- the code is written with Supercollider. If you are not familiar with Supercollider, you should first read this : https://doc.sccode.org/Tutorials/Getting-Started/02-First-Steps.html#:~:text=To%20execute%20it%2C%20simply%20click,Try%20this%20now 
