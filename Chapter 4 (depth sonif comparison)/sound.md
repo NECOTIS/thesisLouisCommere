@@ -7,7 +7,8 @@ For a better sound quality, you can download the aiff files in the directory
 Sounds correspond to a sonification of the depth from 0 to 1 meter:
 
 Amplitude based sonification:
-[]https://user-images.githubusercontent.com/6518453/190482490-39733fdb-c6bd-48ca-88e0-349693ef2531.mp4
+
+https://user-images.githubusercontent.com/6518453/190482490-39733fdb-c6bd-48ca-88e0-349693ef2531.mp4
 
 Frequency based sonification:
 https://user-images.githubusercontent.com/6518453/190482702-29422dce-bb9b-4d7f-9b85-c8404050fed1.mp4
