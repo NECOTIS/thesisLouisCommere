@@ -19,6 +19,5 @@ Interface of the system:
  <img src="https://user-images.githubusercontent.com/6518453/190511778-78cbab68-8dd3-45ff-84b6-87e09dde6081.png" width="500">
  
  On the bottom: video stream from the camera,
- On the top: Choice of the sonification, the experimental mode (traning-> entrainement, positioning task->experience), If you check the angle button, the azimuth will be sonified
-
+ On the top: Choice of the sonification, the experimental mode (traning-> entrainement, positioning task->experience), Sonification of the azimut ("Angle" button)
 
